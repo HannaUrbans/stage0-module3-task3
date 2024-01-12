@@ -6,9 +6,9 @@ public class ReassigningValues {
         int second = 10;
         int third = 100;
         System.out.println(first + "\n" + second + "\n" + third);
-        var linkToFirst = first;
-        var linkToSecond = second;
-        var linkToThird = third;
+        int linkToFirst = first;
+        int linkToSecond = second;
+        int linkToThird = third;
         first = 15;
         second = 6;
         third = 4;
